@@ -210,7 +210,7 @@ SUBROUTINE check_kin ()
 
      hpsi = DCMPLX(0.0d0,0.0d0)
      DO ibnd = 1, nbnd
-        hpsi (1:npw, ibnd) = hpsi(1:npw, ibnd) + g2kin (1:npw) * evc (1:npw, ibnd)
+
         hpsi (1:npw, ibnd) = hpsi(1:npw, ibnd) + g2kin (1:npw) * evc (1:npw, ibnd)
         IF ( noncolin ) THEN
            hpsi (npwx+1:npwx+npw, ibnd) = hpsi(npwx+1:npwx+npw,ibnd) + g2kin (1:npw) * evc (npwx+1:npwx+npw, ibnd)
