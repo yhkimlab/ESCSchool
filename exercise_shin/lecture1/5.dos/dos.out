@@ -1,0 +1,101 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.6  Build 20220227 (id: 28877f3f32)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: psm2
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi_psm2.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat"
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_clx-ap_shm-ofi.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       172283   n005.hpc   0
+[0] MPI startup(): 1       172284   n005.hpc   1
+[0] MPI startup(): 2       172285   n005.hpc   2
+[0] MPI startup(): 3       172286   n005.hpc   3
+[0] MPI startup(): 4       172287   n005.hpc   4
+[0] MPI startup(): 5       172288   n005.hpc   5
+[0] MPI startup(): 6       172289   n005.hpc   6
+[0] MPI startup(): 7       172290   n005.hpc   7
+[0] MPI startup(): 8       172291   n005.hpc   8
+[0] MPI startup(): 9       172292   n005.hpc   9
+[0] MPI startup(): 10      172293   n005.hpc   10
+[0] MPI startup(): 11      172294   n005.hpc   11
+[0] MPI startup(): 12      172295   n005.hpc   12
+[0] MPI startup(): 13      172296   n005.hpc   13
+[0] MPI startup(): 14      172297   n005.hpc   14
+[0] MPI startup(): 15      172298   n005.hpc   15
+[0] MPI startup(): 16      172299   n005.hpc   16
+[0] MPI startup(): 17      172300   n005.hpc   17
+[0] MPI startup(): 18      172301   n005.hpc   18
+[0] MPI startup(): 19      172302   n005.hpc   19
+[0] MPI startup(): 20      172303   n005.hpc   20
+[0] MPI startup(): 21      172304   n005.hpc   21
+[0] MPI startup(): 22      172305   n005.hpc   22
+[0] MPI startup(): 23      172306   n005.hpc   23
+[0] MPI startup(): 24      172307   n005.hpc   24
+[0] MPI startup(): 25      172308   n005.hpc   25
+[0] MPI startup(): 26      172309   n005.hpc   26
+[0] MPI startup(): 27      172310   n005.hpc   27
+[0] MPI startup(): 28      172311   n005.hpc   28
+[0] MPI startup(): 29      172312   n005.hpc   29
+[0] MPI startup(): 30      172313   n005.hpc   30
+[0] MPI startup(): 31      172314   n005.hpc   31
+[0] MPI startup(): I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.6.0
+[0] MPI startup(): I_MPI_MPIRUN=mpirun
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=slurm
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): MPIR_CVAR_CH4_OFI_ENABLE_DATA=0
+[0] MPI startup(): I_MPI_DEBUG=5
+
+     Program DOS v.7.2 starts on  8Jul2025 at 16:35: 7 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+     476023 MiB available memory on the printing compute node when the environment starts
+ 
+
+     Reading xml data from directory:
+
+     ./wavefunc/test1.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           9       9      2                  777      777     118
+     Max          10      10      3                  796      796     151
+     Sum         295     295     91                25045    25045    4481
+ 
+     Using Slab Decomposition
+ 
+
+     Gaussian broadening (read from file): ngauss,degauss=   0    0.005000
+
+ 
+     DOS          :      0.12s CPU      0.23s WALL
+
+ 
+   This run was terminated on:  16:35: 7   8Jul2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
