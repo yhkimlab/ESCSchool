@@ -1,0 +1,4 @@
+&dos
+    prefix='test1',
+    outdir='./wavefunc'
+/

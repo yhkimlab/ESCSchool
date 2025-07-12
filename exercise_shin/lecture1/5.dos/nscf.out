@@ -1,0 +1,221 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.6  Build 20220227 (id: 28877f3f32)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: psm2
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi_psm2.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat"
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_icx_shm-ofi.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_clx-ap_shm-ofi.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       172194   n005.hpc   0
+[0] MPI startup(): 1       172195   n005.hpc   1
+[0] MPI startup(): 2       172196   n005.hpc   2
+[0] MPI startup(): 3       172197   n005.hpc   3
+[0] MPI startup(): 4       172198   n005.hpc   4
+[0] MPI startup(): 5       172199   n005.hpc   5
+[0] MPI startup(): 6       172200   n005.hpc   6
+[0] MPI startup(): 7       172201   n005.hpc   7
+[0] MPI startup(): 8       172202   n005.hpc   8
+[0] MPI startup(): 9       172203   n005.hpc   9
+[0] MPI startup(): 10      172204   n005.hpc   10
+[0] MPI startup(): 11      172205   n005.hpc   11
+[0] MPI startup(): 12      172206   n005.hpc   12
+[0] MPI startup(): 13      172207   n005.hpc   13
+[0] MPI startup(): 14      172208   n005.hpc   14
+[0] MPI startup(): 15      172209   n005.hpc   15
+[0] MPI startup(): 16      172210   n005.hpc   16
+[0] MPI startup(): 17      172211   n005.hpc   17
+[0] MPI startup(): 18      172212   n005.hpc   18
+[0] MPI startup(): 19      172213   n005.hpc   19
+[0] MPI startup(): 20      172214   n005.hpc   20
+[0] MPI startup(): 21      172215   n005.hpc   21
+[0] MPI startup(): 22      172216   n005.hpc   22
+[0] MPI startup(): 23      172217   n005.hpc   23
+[0] MPI startup(): 24      172218   n005.hpc   24
+[0] MPI startup(): 25      172219   n005.hpc   25
+[0] MPI startup(): 26      172220   n005.hpc   26
+[0] MPI startup(): 27      172221   n005.hpc   27
+[0] MPI startup(): 28      172222   n005.hpc   28
+[0] MPI startup(): 29      172223   n005.hpc   29
+[0] MPI startup(): 30      172224   n005.hpc   30
+[0] MPI startup(): 31      172225   n005.hpc   31
+[0] MPI startup(): I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.6.0
+[0] MPI startup(): I_MPI_MPIRUN=mpirun
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_HYDRA_BOOTSTRAP=slurm
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): MPIR_CVAR_CH4_OFI_ENABLE_DATA=0
+[0] MPI startup(): I_MPI_DEBUG=5
+
+     Program PWSCF v.7.2 starts on  8Jul2025 at 16:35: 2 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     476375 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     Message from routine input:
+     WARNING: "startingwfc" set to atomic+random may spoil restart
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+ 
+     K-points division:     npool     =       2
+     R & G space division:  proc/nbgrp/npool/nimage =      16
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          18      18      5                 1556     1556     267
+     Max          19      19      6                 1575     1575     296
+     Sum         295     295     91                25045    25045    4481
+ 
+     Using Slab Decomposition
+ 
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       4.6164  a.u.
+     unit-cell volume          =     523.1537 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=           16
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+     celldm(1)=   4.616403  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000  -0.000013   0.000000 )  
+               a(2) = (  -0.499986   0.866034   0.000000 )  
+               a(3) = (   0.000000   0.000000   6.140255 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000007  0.577333  0.000000 )  
+               b(2) = (  0.000015  1.154698  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.162860 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ../pseudo/C_ONCV_PBE-1.2.upf
+     MD5 check sum: 1a5f83a7b1f58d24996abe00ed223ac6
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  602 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100     C ( 1.00)
+
+      2 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.4997538   0.2882370   3.0701277  )
+         2           C   tau(   2) = (  -0.0002400   0.5769183   3.0701277  )
+
+     number of k points=   124  Gaussian smearing, width (Ry)=  0.0050
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:    25045 G-vectors     FFT dimensions: (  24,  24, 128)
+
+     Estimated max dynamical RAM per process >       1.19 MB
+
+     Estimated total dynamical RAM >      38.01 MB
+
+     Atomic positions and unit cell read from directory:
+     ./wavefunc/test1.save/
+ 
+
+     The potential is recalculated from file :
+     ./wavefunc/test1.save/charge-density
+
+     Starting wfcs are random
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  1.25E-09,  avg # of iterations = 44.5
+
+     total cpu time spent up to now is        3.3 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     Writing all to output data dir ./wavefunc/test1.save/
+ 
+     init_run     :      0.03s CPU      0.04s WALL (       1 calls)
+     electrons    :      3.09s CPU      3.20s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.01s WALL (       1 calls)
+     potinit      :      0.00s CPU      0.01s WALL (       1 calls)
+     hinit0       :      0.02s CPU      0.02s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :      3.09s CPU      3.20s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.01s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.00s CPU      0.00s WALL (      62 calls)
+     init_us_2:cp :      0.00s CPU      0.00s WALL (      62 calls)
+     cegterg      :      2.63s CPU      2.73s WALL (     188 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.72s CPU      0.75s WALL (    3207 calls)
+     h_psi        :      1.69s CPU      1.75s WALL (    3395 calls)
+     g_psi        :      0.02s CPU      0.02s WALL (    3145 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.05s CPU      0.05s WALL (    3395 calls)
+     vloc_psi     :      1.60s CPU      1.66s WALL (    3395 calls)
+     add_vuspsi   :      0.02s CPU      0.02s WALL (    3395 calls)
+
+     General routines
+     calbec       :      0.04s CPU      0.05s WALL (    3395 calls)
+     fft          :      0.01s CPU      0.01s WALL (      10 calls)
+     fftw         :      1.41s CPU      1.46s WALL (   65200 calls)
+     davcio       :      0.00s CPU      0.00s WALL (     124 calls)
+ 
+     Parallel routines
+ 
+     PWSCF        :      3.24s CPU      4.00s WALL
+
+ 
+   This run was terminated on:  16:35: 6   8Jul2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
