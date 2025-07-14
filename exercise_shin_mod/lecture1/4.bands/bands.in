@@ -1,0 +1,4 @@
+&bands
+    prefix='test1',
+    outdir='./wavefunc'
+/

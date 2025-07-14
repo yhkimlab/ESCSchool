@@ -1,0 +1,4 @@
+&summ
+  prefix='test1',
+  outdir='./wavefunc'
+/
