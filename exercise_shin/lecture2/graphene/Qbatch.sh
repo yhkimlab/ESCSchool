@@ -51,8 +51,10 @@ cd ${basedir}
 # run PWSCF
 #--------------------------------------------------
 
-RUNBIN="/home/dshin/Install/q-e-qe-7.4/bin/pw.x"
-RUNBIN2="/home/dshin/Install/q-e-qe-7.4/PP/src/summer_tuto.x"
+RUNBIN="$HOME/Install/q-e-qe-7.4/bin/pw.x"
+RUNBIN="$HOME/Install/q-e-qe-7.4/bin/pw.x"
+RUNBIN2="$HOME/Install/q-e-qe-7.4/PP/src/summer_tuto.x"
+RUNBIN2="$HOME/Install/q-e-qe-7.4/PP/src/summer_tuto.x"
 PWSCF_INPUT="scf"
    mpirun -np $NPROCS ${MPIARG} ${RUNBIN} -nk 2  < ${PWSCF_INPUT}.in > ${PWSCF_INPUT}.out
 PWSCF_INPUT="summ"
