@@ -103,7 +103,7 @@ bands.x : bands.o libpp.a $(MODULES)
 
 summer_tuto.x : summer_tuto.o libpp.a $(MODULES) 
 	$(LD) $(LDFLAGS) -o $@ \
-		bands.o libpp.a $(MODULES) $(QELIBS)
+		summer_tuto.o libpp.a $(MODULES) $(QELIBS)
 	- ( cd ../../bin ; ln -fs ../PP/src/$@ . )
 
 band_interpolation.x : band_interpolation.o libpp.a $(MODULES) 
